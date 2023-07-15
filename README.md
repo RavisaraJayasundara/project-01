@@ -3,7 +3,26 @@
 
 ### You have been assigned to develop a Library Management System for a public library. Design and implement the necessary classes to support the system using the concepts of class, objects, abstraction, inheritance, encapsulation, and polymorphism. Your implementation should include the following classes:
 
-### 1. LibraryItem (abstract class)
+<ol>
+  <li>
+    LibraryItem (abstract class)
+    <ul>
+      <li>
+        Properties:
+      <li>
+    </ul>
+  </li>
+  <li>
+    Book (subclass of LibraryItem)
+  </li>
+  <li>
+    Magazine (subclass of LibraryItem)
+  </li>
+  <li>
+    LibraryMember
+  </li>
+</ol>
+1. LibraryItem (abstract class)
 #### • Properties:
 #### • title (String): the title of the library item.
 #### • itemID (String): a unique identifier for the library item.
